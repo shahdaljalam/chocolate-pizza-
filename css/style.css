@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+
+body {
+    margin: auto;
+    width: 850px;
+    padding: auto;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 50px 1fr 300px;
+    align-items: center;
+    margin-bottom: 0px;
+    height: 10px;
+ 
+  }
+  .logo {
+    margin: 0;
+  }
+  .text {
+    margin: 0;
+    font-size: 50 px;
+    font-weight: 900;
+
+  }
+  header p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  main div.prit{
+      text-align: right;
+  }
+  
+  #icons {
+    text-align: right;
+  }
+
+  .pp{
+    margin: 0;
+    font-size: 12px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .pizza {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 30px;
+  }
+  .choco {
+    margin: 0;
+    font-size: 12px;
+  }
+  h2 {
+    margin: 0;
+    font-family: "preconnect" ;
+    font-size: 30px;
+    
+  }
+  .itm {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(./img/list-bg.png);
+  }
+  
+  .footr {
+    display: grid;
+    grid-template-columns: 50px 1fr 150px;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .footr div p {
+    margin: 0;
+  }
